@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Practice - Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- เชื่อมโยงกับไฟล์ CSS -->
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo">
+            <i class="fas fa-bell"></i>
+            Cyber Practice
+        </div>
+        <div class="search-container">
+            <input type="search" placeholder="ค้นหา..." class="search-input">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="profile-container">
+            <button class="profile-button" onclick="toggleProfileMenu()">
+                <i class="fas fa-user-circle"></i> Profile
+            </button>
+            <div class="profile-menu" id="profileMenu">
+                <a href="#">View Profile</a>
+                <a href="#">Account Settings</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="sidebar">
+            <h1>Cyber Practice</h1>
+            <a href="home.html" class="nav-button active">
+                <i class="fas fa-home"></i>
+                Home
+            </a>
+            <a href="challenges.html" class="nav-button">
+                <i class="fas fa-flag"></i>
+                Challenges
+            </a>
+            <a href="events.html" class="nav-button">
+                <i class="fas fa-calendar-alt"></i>
+                Events
+            </a>
+            <a href="education.html" class="nav-button">
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </a>
+        </div>
+        <div class="content">
+            <!-- เนื้อหาหลักของหน้า Home -->
+            <h2>Welcome to Cyber Practice</h2>
+            <p>Explore challenges and events related to cybersecurity education.</p>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- เชื่อมโยงกับไฟล์ JavaScript -->
+</body>
+</html>
+
